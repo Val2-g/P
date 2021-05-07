@@ -1,0 +1,5 @@
+{%extends 'LAYOUT.html'%}
+{% block title %}Registro{% endblock %}
+{% block content %}
+
+{% endblock %}

@@ -1,0 +1,42 @@
+{%extends 'LAYOUT.html'%}
+{% block title %}inicio{% endblock %}
+{% block content %}
+ <div class="container-fluid text-center">    
+  <div class="row content">
+    <!--El sistema de cuadrícula de Bootstrap permite hasta 12 columnas en la página.-->
+    <!--Si no desea utilizar las 12 columnas individualmente, puede agrupar las columnas para crear columnas más anchas.-->
+    <!--.col-sm-2 el numero se usa para especificar cuantas de las 12 columnas quiero usar para este contenedor-->
+    <div class="col-sm-2 sidenav">
+      <!--los párrafos se definen con la etiqueta <p>-->
+       <!--La etiqueta HTML <a> define un hipervínculo.-->
+      <!--Tiene la sintaxis: <a href="url"> link text </a>-->
+      <!--El atributo más importante del elemento <a> es el atributo href, que indica el destino del enlace.-->
+      <!--'link text' es la parte que será visible para el lector.-->
+      <p><a href="#">LINK 1</a></p>
+      <p><a href="#">LINK 2</a></p>
+      <p><a href="#">LINK 3</a></p>
+    </div>
+    <!--.col-sm-8 el numero se usa para especificar cuantas de las 12 columnas quiero usar para este contenedor-->
+    <!--las columnas de la cuadrícula deben sumar hasta doce por fila. Más que eso, las columnas se apilarán sin importar la ventana gráfica.-->
+    <div class="col-sm-8 text-left"> 
+      <!--Los encabezados HTML se definen con las etiquetas <h1> a <h6>.-->
+      <!--<h1> define el encabezado más importante. <h6> define el encabezado menos importante-->
+      <!--La etiqueta <hr> se usa para dar un espacio entre textos en este caso-->
+      <h1>PLANTILLA</h1>
+      <p>plantilla hecha a partir de establecer el framework que se va a usar, para dar orden a la pagina</p>
+      <hr>
+      <h3>Test</h3>
+      <p>se usara bootstrap tres como ejemplo con la posibilidad de cambiarlo en el informe_05 </p>
+    </div>
+    <!--.col-sm-2 el numero se usa para especificar cuantas de las 12 columnas quiero usar para este contenedor-->
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>Informacion Basica</p>
+      </div>
+      <div class="well">
+        <p>Informacion Basica</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
